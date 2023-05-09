@@ -34,6 +34,17 @@ instala o NODE e depois o YARN
 -NODE tem que ser na versao 18 pra cima
 link para baixar o node https://nodejs.org/en
 link YARN https://yarnpkg.com/getting-started/install
+link REACT NATIVE https://reactnative.dev/
+link styled-components https://styled-components.com/
+link eslint https://eslint.org/
+link prettier https://prettier.io/
+link husky https://typicode.github.io/husky/ || https://typicode.github.io/husky/#/?id=create-a-hook
+
+#minha configuracao do .husky
+npx lint-staged
+yarn lint:Fix
+yarn lint
+yarn format
 
 assim que dar um git clone digite: - yarn install que ira instalar todo os pacotes do react native.
 para rodar digita no cmd:
