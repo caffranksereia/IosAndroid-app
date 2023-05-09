@@ -4,10 +4,10 @@
 		"slug": "IosAndroid-app",
 		"version": "1.0.0",
 		"orientation": "portrait",
-		"icon": "./assets/icon.png",
+		"icon": "src/_assets/icon.png",
 		"userInterfaceStyle": "light",
 		"splash": {
-			"image": "./assets/splash.png",
+			"image": ".src/_assets/splash.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
 		},
@@ -17,12 +17,12 @@
 		},
 		"android": {
 			"adaptiveIcon": {
-				"foregroundImage": "./assets/apps/adaptive-icon.png",
+				"foregroundImage": "src/_assets/apps/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			}
 		},
 		"web": {
-			"favicon": "./assets/web/favicon.png"
+			"favicon": "src/_assets/web/favicon.png"
 		}
 	}
 }
