@@ -38,6 +38,7 @@ link YARN https://yarnpkg.com/getting-started/install
 assim que dar um git clone digite: - yarn install que ira instalar todo os pacotes do react native.
 para rodar digita no cmd:
 yarn dev que ira aparecer issa imagem no terminal:
+![Alt text](Home/Picture/Screenshots/ Screenshot from 2023-05-09 13-44-19.png ?raw=true "Optional Title")
 Screenshot from 2023-05-09 13-44-19.png
 para instalar alguma coisa digite esse comando:
 yarn add _something_
