@@ -1963,6 +1963,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@ungap/url-search-params@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@ungap/url-search-params/-/url-search-params-0.1.4.tgz#727e9b4c811beaa6be6d7e4cc0516663c884cfd0"
+  integrity sha512-RLwrxCTDNiNev9hpr9rDq8NyeQ8Nn0X1we4Wu7Tlf368I8r+7hBj3uObhifhuLk74egaYaSX5nUsBlWz6kjj+A==
+
 "@urql/core@2.3.6":
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/@urql/core/-/core-2.3.6.tgz#ee0a6f8fde02251e9560c5f17dce5cd90f948552"
@@ -6550,6 +6555,14 @@ react-router-dom@^6.11.1:
   integrity sha512-dPC2MhoPeTQ1YUOt5uIK376SMNWbwUxYRWk2ZmTT4fZfwlOvabF8uduRKKJIyfkCZvMgiF0GSCQckmkGGijIrg==
   dependencies:
     "@remix-run/router" "1.6.1"
+    react-router "6.11.1"
+
+react-router-native@^6.11.1:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/react-router-native/-/react-router-native-6.11.1.tgz#b8481d4128b793440f071cb1ed22ff2fdf0fdc7b"
+  integrity sha512-yerJqL4cZkvKe+IanEToRDJlmZEDdJ8bTA8l7WfKpAqsrHA4F1L6wC6uPiyfFYwomB/8PXDsGA+USMiUxA7slw==
+  dependencies:
+    "@ungap/url-search-params" "^0.1.4"
     react-router "6.11.1"
 
 react-router@6.11.1:
