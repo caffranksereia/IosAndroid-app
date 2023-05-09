@@ -1,21 +1,40 @@
 {
-  "name": "iosandroid-app",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~48.0.15",
-    "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-native": "0.71.7"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+	"name": "iosandroid-app",
+	"version": "1.0.0",
+	"main": "node_modules/expo/AppEntry.js",
+	"scripts": {
+		"dev": "expo start",
+		"dev:android": "expo start --android",
+		"dev:ios": "expo start --ios",
+		"dev:web": "expo start --web",
+		"prepare": "husky install",
+		"lint": "eslint ./",
+		"lint:Fix": "eslint --fix --ext .js,.jsx .",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\""
+	},
+	"dependencies": {
+		"axios": "^1.4.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^8.40.0",
+		"eslint-config-prettier": "^8.8.0",
+		"expo": "~48.0.15",
+		"expo-status-bar": "~1.4.4",
+		"husky": "^8.0.3",
+		"prettier": "2.8.8",
+		"react": "18.2.0",
+		"react-native": "0.71.7",
+		"react-router-dom": "^6.11.1",
+		"styled-components": "^6.0.0-rc.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.21.8",
+		"@babel/eslint-parser": "^7.21.8",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-react": "^7.32.2",
+		"lint-staged": "^13.2.2"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	},
+	"private": true
 }
