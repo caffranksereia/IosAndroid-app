@@ -1,8 +1,7 @@
 #Projeto da Health&Tasty
 
 estrutura do projeto:
-No src fica todos os codigos dentro dessa pasta
-no src temos as seguintes pastas: - components
+No src fica todos os codigos dentro dessa pasta e dentro delas ficam as seguintes pastas: - components
 -config
 -context
 -screen
