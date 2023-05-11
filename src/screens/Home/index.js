@@ -1,6 +1,11 @@
 import React from 'react';
-import HomeComponents from '../../components/Home/Login-Components';
+import { ThemeProvider } from 'styled-components/native';
+import HomeComponents from '../../components/Home/Home-Components';
 
 export default function Home() {
-	return <HomeComponents />;
+	return (
+		<ThemeProvider>
+			<HomeComponents />
+		</ThemeProvider>
+	);
 }
