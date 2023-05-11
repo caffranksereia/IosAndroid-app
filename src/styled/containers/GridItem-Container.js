@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 
-export const GridItemComponents = styled.div`
+export const GridItemComponents = styled.ScrollView`
 	background-color: ${(props) => props.theme.color.background};
 	border: ${(props) => (props.border ? props.border : 'auto')};
 	padding: ${(props) => (props.padding ? props.padding : 'auto')};

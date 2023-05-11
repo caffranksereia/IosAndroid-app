@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 
-export const ImgDiv = styled.img`
+export const ImgDiv = styled.Image`
 	width: ${(props) => (props.width ? props.width : 'auto')};
 	height: ${(props) => (props.height ? props.height : 'auto')};
 	alt: ${(props) => (props.alt ? props.alt : 'none')};

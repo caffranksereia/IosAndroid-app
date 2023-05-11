@@ -1,22 +1,25 @@
-export const theme = {
-	color: {
-		background: '#FFFFFF',
-		primary: {
-			main: 'palevioletred',
-		},
-		secundary: {
-			main: '#F7941D',
-		},
-		third: {
-			main: '#622670',
-		},
-	},
-	size: {},
-	border: {},
-	font: {
-		small: '0.5rem',
-		default: '1rem',
-		big: '2rem',
-		bigger: '3rem',
-	},
+const darkTheme = {
+	PRIMARY_COLOR: '#000',
+	SECONDARY_COLOR: '#73737d',
+	TITLE_COLOR: '#fff',
+	BACKGROUND_COLOR: '#111216',
+	BUTTON_COLOR: '#fff',
 };
+
+const lightTheme = {
+	PRIMARY_COLOR: '#fff',
+	SECONDARY_COLOR: '#73737d',
+	TITLE_COLOR: '#000',
+	BACKGROUND_COLOR: '#fff',
+	BUTTON_COLOR: '#000',
+};
+
+const TodoTheme = {
+	PRIMARY_COLOR: '#fff',
+	SECONDARY_COLOR: '#73737d',
+	TITLE_COLOR: '#000',
+	BACKGROUND_COLOR: '#fff',
+	BUTTON_COLOR: '#000',
+};
+
+export { lightTheme, darkTheme, TodoTheme };
