@@ -1,13 +1,13 @@
 {
 	"expo": {
-		"name": "IosAndroid-app",
-		"slug": "IosAndroid-app",
+		"name": "IosAn-app",
+		"slug": "IosAn-app",
 		"version": "1.0.0",
 		"orientation": "portrait",
-		"icon": "src/_assets/icon.png",
+		"icon": "./assets/icon.png",
 		"userInterfaceStyle": "light",
 		"splash": {
-			"image": ".src/_assets/splash.png",
+			"image": "./assets/splash.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
 		},
@@ -17,15 +17,12 @@
 		},
 		"android": {
 			"adaptiveIcon": {
-				"foregroundImage": "src/_assets/apps/adaptive-icon.png",
+				"foregroundImage": "./assets/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			}
 		},
 		"web": {
-			"favicon": "src/_assets/web/favicon.png"
-		},
-		"packagerOpts": {
-			"sourceExts": ["js", "json", "ts", "tsx", "jsx"]
+			"favicon": "./assets/favicon.png"
 		}
 	}
 }
